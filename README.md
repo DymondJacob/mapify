@@ -2,6 +2,10 @@
 
 #MAPIFY
 
+##IMPORTANT
+It will prompt you that "It did not load correctly", click "ok" and proceed to use the app :)
+but everything does work like it is sappose to on Local, Heroku and even your phone if you would like
+EVERYTHING DOES WORK :)
 ## Technologies Used
 -Express
 -jQuery

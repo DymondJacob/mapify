@@ -1,11 +1,11 @@
 (function() {
-'use strict';
+'use strict';   //AIzaSyAHvgjfq-Li8rcWIb7U4o_YDB8kI_bHxWU
 angular
   .module("app")
   .controller('spaceController', ['dataServiceSpace', '$routeParams', function(dataServiceSpace, $routeParams){
     // define view model
     var vm = this;
-    vm.googleMapsUrl="https://maps.googleapis.com/maps/api/js?key=AIzaSyDe6vikroAoydnIrfEUWl0wZRCj81F-Jls&v3";
+    vm.googleMapsUrl="https://maps.googleapis.com/maps/api/js?key=AIzaSyAHvgjfq-Li8rcWIb7U4o_YDB8kI_bHxWU";
     dataServiceSpace.getISS(function(response) {
       vm.locationISS = response.data;
       console.log(response);
