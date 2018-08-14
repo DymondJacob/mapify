@@ -5,7 +5,7 @@ angular
   .controller('spaceController', ['dataServiceSpace', '$routeParams', function(dataServiceSpace, $routeParams){
     // define view model
     var vm = this;
-    vm.googleMapsUrl="https://maps.googleapis.com/maps/api/js?key=AIzaSyAHvgjfq-Li8rcWIb7U4o_YDB8kI_bHxWU-Jls&v";
+    vm.googleMapsUrl="https://maps.googleapis.com/maps/api/js?key=AIzaSyDe6vikroAoydnIrfEUWl0wZRCj81F-Jls&v3";
 
     dataServiceSpace.getISS(function(response) {
       vm.locationISS = response.data;
