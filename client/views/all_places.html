@@ -1,0 +1,35 @@
+<div class="btn-group" role="group" aria-label="...">
+  <button type="button" class="btn btn-default"><a href="/#/">Home</a></button>
+  <button type="button" class="btn btn-default"><a href="#/new">Create New Location</a></button>
+  <button type="button" class="btn btn-default"><a href="#/space_station">ISS Location</a></button>
+</div>
+
+<h1 class="display-1">Capstone Map App</h1>
+
+<div map-lazy-load="https://maps.google.com/maps/api/js"
+  map-lazy-load-params="{{vm.googleMapsUrl}}">
+  <ng-map zoom="1">
+    <marker ng-repeat="place in vm.getAllPlaces" position="{{place.lat}},{{place.lon}}" title="{{place.location}}"></marker>
+  </ng-map>
+</div>
+
+<h2 class="display-2">All Locations</h2>
+
+    <table class="table">
+        <thead class="thead-inverse">
+            <tr>
+                <th>Location</th>
+                <th>Latitude</th>
+                <th>Longitude</th>
+                <th></th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr ng-repeat = "place in vm.getAllPlaces">
+                <td><a href='/#/detail/{{place.id}}'>{{place.location}}</a></td>
+                <td>{{place.lat}}</td>
+                <td>{{place.lon}}</td>
+                <td><a href="#/weather/{{place.id}}" class="btn btn-default btn-md">Weather Report</a></td>
+            </tr>
+        </tbody>
+    </table>

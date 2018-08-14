@@ -1,0 +1,14 @@
+{
+  "development": {
+    "storage": "places.db",
+    "dialect": "sqlite"
+  },
+  "test": {
+    "storage": "places.db",
+    "dialect": "sqlite"
+  },
+  "production": {
+    "storage": "places.db",
+    "dialect": "sqlite"
+  }
+}
