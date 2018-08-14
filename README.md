@@ -10,6 +10,8 @@
 -morgan
 -eslint
 -Angular
+-Bootstrap
+
 +more
 
 ## This is a Map/Weather application 
@@ -20,7 +22,9 @@
 -ISS API
 
 ## App is published on Heroku
+https://mapify.herokuapp.com/#/
 
 
 ##Installation Process
 npm install, npm start to run locally
+
