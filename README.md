@@ -22,7 +22,7 @@
 -ISS API
 
 ## App is published on Heroku
-https://mapify.herokuapp.com/#/
+http://mapify.herokuapp.com/#/
 
 
 ##Installation Process
