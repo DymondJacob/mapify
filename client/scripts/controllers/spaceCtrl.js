@@ -6,7 +6,6 @@ angular
     // define view model
     var vm = this;
     vm.googleMapsUrl="https://maps.googleapis.com/maps/api/js?key=AIzaSyDe6vikroAoydnIrfEUWl0wZRCj81F-Jls&v3";
-
     dataServiceSpace.getISS(function(response) {
       vm.locationISS = response.data;
       console.log(response);
