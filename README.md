@@ -31,8 +31,8 @@ Mapify has NO syntax errors :)
 
 
 #Installation Process 
-npm install (Install dependencies)
-npm start (Start the Application).
+- npm install (Install dependencies)
+- npm start (Start the Application).
 
 #Note 
 
