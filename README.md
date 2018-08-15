@@ -11,6 +11,7 @@
 -eslint
 -Angular
 -Bootstrap
+-Node.js
 +more
 
 # This is a Map/Weather/ISS Application 
