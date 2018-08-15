@@ -3,7 +3,8 @@
   "version": "0.0.0",
   "private": true,
   "scripts": {
-    "start": "node ./bin/www"
+    "start": "node ./bin/www localhost 5000"
+
   },
   "dependencies": {
     "angular": "^1.5.7",
@@ -16,7 +17,7 @@
     "express": "~4.13.4",
     "express-method-override": "0.0.3",
     "forecast.io": "0.0.9",
-    "jade": "~1.11.0",
+    "pug": "~1.11.0",
     "jquery": "^3.0.0",
     "method-override": "^2.3.6",
     "morgan": "~1.7.0",

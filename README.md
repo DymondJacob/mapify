@@ -6,7 +6,7 @@
 -Express
 -jQuery
 -Sequlize sqlite3 (database)
--jade
+-Pug
 -morgan
 -eslint
 -Angular
