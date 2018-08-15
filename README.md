@@ -2,10 +2,6 @@
 
 #MAPIFY
 
-##IMPORTANT
-It will prompt you that "It did not load correctly", click "ok" and proceed to use the app :)
-but everything does work like it is sappose to on Local, Heroku and even your phone if you would like
-EVERYTHING DOES WORK :)
 ## Technologies Used
 -Express
 -jQuery
@@ -15,20 +11,26 @@ EVERYTHING DOES WORK :)
 -eslint
 -Angular
 -Bootstrap
-
 +more
 
-## This is a Map/Weather application 
+## This is a Map/Weather/ISS Application 
 
 ##Mapify uses 3 APIs
 -Google Map API
 -Weather API
 -ISS API
 
-## App is published on Heroku
+## App is published on Heroku 
+##Click this Link to view App
 http://mapify.herokuapp.com/#/
 
+##Does correctly throw errors when no/wrong information is put into form fields, 
+##Make sure you enter in the form fields correctly, and do not leave them blank
 
-##Installation Process
-npm install, npm start to run locally
+
+##Installation Process (should be on port 5000)
+npm install (Install dependencies)
+npm start (Start the Application)
+
+
 
