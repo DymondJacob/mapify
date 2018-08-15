@@ -39,7 +39,7 @@ Mapify has NO syntax errors :)
 App does run successfully on local machine but if need be you may have to install dependencies seperately (most likely will not have to but just incase.)
 (May have to install dependencies seperately if need be)
  if so do the following
--npm init (package.json file)
+-npm init (fresh new cleared package.json file)
 -npm install
 -npm start
 #Port
