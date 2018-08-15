@@ -35,6 +35,7 @@ npm install (Install dependencies)
 npm start (Start the Application).
 
 #Note 
+
 App does run successfully on local machine but if need be you may have to install dependencies seperately (most likely will not have to but just incase.)
 (May have to install dependencies seperately if need be)
  if so do the following
