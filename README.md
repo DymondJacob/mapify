@@ -16,7 +16,7 @@
 
 # This is a Map/Weather/ISS Application 
 
-##Mapify uses 3 APIs
+#Mapify uses 3 APIs
 -Google Map API
 -Weather API
 -ISS API
