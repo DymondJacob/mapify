@@ -28,11 +28,19 @@ http://mapify.herokuapp.com/#/
 #Make sure you enter in the form fields correctly, and do not leave them blank
 
 
-#Installation Process (should be on port 5000)
+#Installation Process 
 npm install (Install dependencies)
 npm start (Start the Application)
-
+#Note
+#App does run successfully on local machine but if need be you may have to install dependencies seperately (most likely will not have to but just incase.)
 (May have to install dependencies seperately if need be)
+ if so do the following
+-npm init (package.json file)
+-npm install
+-npm start
+#Port
+(It runs locally on my port 5000)
+
 
 
 
