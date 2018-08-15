@@ -43,6 +43,7 @@ App does run successfully on local machine but if need be you may have to instal
 -npm init (fresh new cleared package.json file)
 -npm install
 -npm start
+(It will then run successfully on local host if you did this method of installation)
 
 #Port
 (It runs locally on my port 5000)
