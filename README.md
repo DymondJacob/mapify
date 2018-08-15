@@ -25,7 +25,9 @@
 # Click this Link to view App
 http://mapify.herokuapp.com/#/
 
-#Does correctly throw errors when no/wrong information is put into form fields, 
+#App has NO syntax errors
+
+# It Does correctly throw errors when no/wrong information is put into form fields, 
 #Make sure you enter in the form fields correctly, and do not leave them blank
 
 
