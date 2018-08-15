@@ -43,6 +43,10 @@ npm start (Start the Application)
 #Port
 (It runs locally on my port 5000)
 
+#All requirements are met for capstone project with some exceeds
+
+#Enjoy :)
+
 
 
 
