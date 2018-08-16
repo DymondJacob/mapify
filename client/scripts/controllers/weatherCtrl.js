@@ -6,9 +6,9 @@ angular
     // define view model
     var vm = this;
     vm.googleMapsUrl="https://maps.googleapis.com/maps/api/js?key=AIzaSyDe6vikroAoydnIrfEUWl0wZRCj81F-Jls&v3";
-    // define ID of book from routeparams
+    // define ID of place from routeparams
     vm.ID = $routeParams.id;
-      // get book details based upon ID
+      // get place details based upon ID
       vm.getID = function() {
         dataServicePlaces.getID(vm.ID, function(response) {
           vm.placeDetails = response.data[0];

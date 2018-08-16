@@ -6,16 +6,16 @@ angular
     // define view model
     var vm = this;
     vm.googleMapsUrl="https://maps.googleapis.com/maps/api/js?key=AIzaSyAHvgjfq-Li8rcWIb7U4o_YDB8kI_bHxWU";
-    // define ID of book from routeparams
+    // define ID of place from routeparams
     vm.ID = $routeParams.id;
-    // get all books
+    // get all places
     dataServicePlaces.getAll(function(response) {
       vm.getAllPlaces = response.data;
-      
+      console.log(response)
     });
-    // new book object
+    // new place object
     vm.newPlace = {};
-    // add a book
+    // add a place
     vm.addPlace = function() {
         // add the recipe and then go to the detail screen
         dataServicePlaces.addPlace(vm.newPlace, function(response) {
@@ -27,7 +27,7 @@ angular
           vm.errorMessages = error.data.errors
         });
       };
-      // update book
+      // update place
       vm.updatePlace = function() {
         console.log('update fired');
         dataServicePlaces.putID(vm.ID, vm.placeDetails, function(response) {
@@ -41,7 +41,7 @@ angular
           console.log(error);
             });
           };
-      // get book details based upon ID
+      // get place details based upon ID
       vm.getID = function() {
         dataServicePlaces.getID(vm.ID, function(response) {
           vm.placeDetails = response.data[0];

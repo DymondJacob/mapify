@@ -10,7 +10,7 @@ angular
       vm.locationISS = response.data;
       console.log(response);
     });
-    // define ID of book from routeparams
+    // define ID of place from routeparams
     vm.getISS = function() {
         
         dataServiceSpace.getISS(function(response) {
