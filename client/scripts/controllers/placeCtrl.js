@@ -1,5 +1,5 @@
 (function() {
-'use strict'; //AIzaSyAHvgjfq-Li8rcWIb7U4o_YDB8kI_bHxWU //AIzaSyDe6vikroAoydnIrfEUWl0wZRCj81F-Jls&v3
+'use strict'; 
 angular
   .module("app")
   .controller('placeController', ['dataServicePlaces', '$routeParams', function(dataServicePlaces, $routeParams){
@@ -11,7 +11,7 @@ angular
     // get all books
     dataServicePlaces.getAll(function(response) {
       vm.getAllPlaces = response.data;
-      console.log(response.data);
+      
     });
     // new book object
     vm.newPlace = {};

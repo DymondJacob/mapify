@@ -1,5 +1,5 @@
 (function() {
-'use strict';   //AIzaSyAHvgjfq-Li8rcWIb7U4o_YDB8kI_bHxWU
+'use strict';   
 angular
   .module("app")
   .controller('spaceController', ['dataServiceSpace', '$routeParams', function(dataServiceSpace, $routeParams){
