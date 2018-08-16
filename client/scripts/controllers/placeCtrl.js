@@ -17,7 +17,7 @@ angular
     vm.newPlace = {};
     // add a place
     vm.addPlace = function() {
-        // add the recipe and then go to the detail screen
+      
         dataServicePlaces.addPlace(vm.newPlace, function(response) {
           vm.success = "Place Successfully Added!";
           vm.failure = false;

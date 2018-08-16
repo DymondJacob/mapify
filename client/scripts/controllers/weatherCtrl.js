@@ -17,8 +17,7 @@ angular
       // execute get ID function
       vm.getID();
 
-      //var latlon = vm.placeDetails.lat + "," + vm.placeDetails.lon
-
+     
       vm.getWeather = function() {
         var latlon = vm.placeDetails.lat + "," + vm.placeDetails.lon
         console.log('weather event fired');
@@ -33,9 +32,7 @@ angular
           console.log(error);
             });
           };
-      //
-      //vm.pagination = Pagination.getNew(10);
-      //vm.pagination.numPages = Math.ceil(vm.getAllBooks.length/vm.pagination.perPage)
+      
 
 }]);
 })();
